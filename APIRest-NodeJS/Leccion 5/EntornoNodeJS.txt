@@ -1,0 +1,4 @@
+Se instalo la version estable de nodejs
+Se instalo postman
+se utilizara mongo
+se utilizo jsonplaceholder para hacer peticiones falsas

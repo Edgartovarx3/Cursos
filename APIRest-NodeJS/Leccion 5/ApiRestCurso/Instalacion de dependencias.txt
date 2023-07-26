@@ -1,0 +1,6 @@
+npm install express --save
+npm install mongoose --save                     //el --save es para instalar a nivel proyecto las librerias y no globalmente
+npm install multer --save                        // para subir archivos
+npm install validator --save                     //para validar datos
+npm install cors --save                         //solucion a problemas cruzados de conexion
+npm install nodemon --save-dev                   // para que se a ctualicen los datos durante la ejecucion //el -dev es para que solo funcione en desarrollo
