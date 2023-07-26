@@ -1,0 +1,6 @@
+ La leccion 4 habla sobre instalar MongoDB
+ -instalar mongo.exe
+ -usar mongoshell
+ -crear una base de datos desde terminal
+ -crear conexiones
+ -instalar la interfaz y una pequeña introduccion de como usarla 
