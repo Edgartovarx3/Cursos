@@ -1,0 +1,7 @@
+TINYINT-> un valor entero con menos procesamiento o un rango menor numerico min -128 al 127 ó 0 a 255
+SMALLINT-> -32768 a 32767 ó 2767-65535
+ZEROFILL-> rellena a la izquieda con ceros
+UNSIGNED-> Quita los signos, en este caso para quitar los valores negativos
+ENUM-> Son para definir especificamente que dato puede ir en una tabla, limitando lo que se ingresa(puede ser el texto o la posicion).
+SET-> es parecido a Enum solo que debe ser dentro de comillas, en este puedo poner mas de un valor dentro e cada insercion
+ 
