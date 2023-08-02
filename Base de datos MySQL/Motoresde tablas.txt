@@ -1,0 +1,31 @@
+Tipos de tablas: 
+
+a. Tablas ISA: Son tablas de acceso secuencial, que requieren que los registros se accedan de manera secuencial a través de un índice.
+ Son fáciles de insertar información, pero pueden ser más complejas para buscar información en ellas.
+
+b. Tablas May Hisham: Sustituyen a las tablas ISA y tienen un sistema más avanzado.
+ Se crean dos archivos distintos para cada tabla, lo que permite una mayor eficiencia en consultas y procesos.
+
+c. Tablas comprimidas: Están diseñadas para compactar los datos y reducir el espacio de almacenamiento en disco. 
+Aunque no se utilizan frecuentemente, son útiles en ciertos casos de gestión de servidores.
+
+
+diferencia sentra tablas estaticas y dinamicas:
+
+-Tablas estáticas: Tienen registros con columnas de tamaño fijo, lo que las hace más rápidas para insertar y consultar información.
+ Sin embargo, ocupan más espacio en disco debido a la asignación de tamaños máximos para cada columna.
+
+-Tablas dinámicas: Ajustan el tamaño de los registros según la información almacenada, 
+lo que optimiza el espacio de almacenamiento, pero puede afectar la eficiencia en consultas debido a la variabilidad del tamaño de los registros.
+
+
+Uso de las tablas:
+ May Hisham: 
+Es más eficiente para tablas donde predominan las consultas y las operaciones de solo lectura.
+Es adecuado para aplicaciones donde la velocidad de consulta es crucial.
+
+Tablas merge: Se menciona que las tablas merge permiten agrupar varias tablas idénticas y hacer referencia a ellas como un solo objeto. 
+Pueden ser útiles cuando se necesita unir información de diferentes tablas en una consulta.
+
+Tareas propuestas: Se sugiere como tarea modificar los motores de las tablas existentes en 
+una base de datos para mejorar su eficiencia según el tipo de operaciones que se realicen con ellas.
